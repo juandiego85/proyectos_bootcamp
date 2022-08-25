@@ -1,0 +1,75 @@
+#container{
+    width: 360px;
+    height: 550px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#imagen{
+    top: 5%;
+    background-color: white;
+    width: 40%;
+    height: 140px;
+    border: rgb(6, 71, 83) solid 10px;
+    position: absolute;
+    border-radius: 90px;
+    left: 28%;
+    z-index: 1;
+}
+
+#tarjeta{
+    top: 20%;
+    background-color: rgb(16, 54, 61);
+    width: 80%;
+    height: 70%;
+    border-radius: 20px;
+    position: relative;
+    margin: 0px auto;
+}
+
+#section_perfil{
+    padding-top: 70px;
+    text-align: center;
+}
+
+#section_perfil h1{
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+    font-size: 25px;
+}
+#section_perfil p{
+    color:white;
+}
+
+#section_perfil h4{
+    color:white;
+    
+}
+#section_icons{
+    padding-top: 20px;
+    text-align: center;
+}
+#section_icons a{
+    text-decoration:none;
+}
+
+.social__image{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    background-color: rgb(22, 29, 31);
+    width: 100%;
+    height: 70px;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    padding-top: 10px;
+}

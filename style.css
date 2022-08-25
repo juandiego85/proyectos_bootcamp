@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.titulo{
+    color: brown;
+    text-align: center;
+}
+
+.list__section{
+    list-style-type: none;
+ 
+}
+
+.list__option{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.enlace{
+    text-decoration: none;
+    color: rgb(85, 78, 78);
+    padding: 10px;
+}
+
+.enlace:hover{
+    background-color: rgb(7, 46, 68);
+    color: #fff;
+    border-radius: 5px;
+}
