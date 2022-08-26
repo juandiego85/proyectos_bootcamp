@@ -79,14 +79,25 @@ nav{
 }
 
 .form__search input{
-    width: 87%;
+    width: 450px;
     height: 90%;
-    margin-left: 15px;
+    margin-left: 50px;
+    margin-right: 80px;
     padding-top: 2px;
     border: none;
     outline: none; 
     font-size: 16px;
     color: rgba(0, 0, 0, 0.87);
 }
+.search__voice{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding-left: 30px; 
+}
+
 
 
