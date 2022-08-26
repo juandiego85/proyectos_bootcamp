@@ -1,3 +1,12 @@
+:root {
+    --color-text-black: #3c4043;
+    --color-text-grey: #70757a;
+    --color-text-blue: #1a0dab;
+    --color-background-footer: #70757a;
+    --color-background-button: #f8f9fa;
+  }
+
+  
 body{
     margin  : 0px;
     font-size: 14px;
@@ -13,6 +22,13 @@ nav{
     float: right;
     
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background: #f2f2f2;
+    width: 100%;
+  }
 
 .nav__option{
     margin-left: 10px;
@@ -101,3 +117,78 @@ nav{
 
 
 
+.search__button {
+  padding-top: 18px;
+}
+
+.row__languages {
+  color: #4d5156;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
+.row__languages a{
+    text-decoration: none;
+  }
+
+input[type="submit"] {
+  background-color: var(--color-background-button);
+  border: 1px solid var(--color-background-button);
+  border-radius: 4px;
+  color: var(--color-text-black);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  border-color: #70757a3d;
+}
+
+.country {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+  }
+  
+  .submenu__container {
+    position: relative;
+    display: inline-block;
+    padding-left: 80px;
+  }
+  
+  .submenu {
+    color: #70757a;
+    padding: 15px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    display: inline-block;
+  }
+  
+  .settings__container {
+    position: absolute;
+    right: 25px;
+    display: inline-block;
+  }
+  
+  .settings {
+    color: #70757a;
+    padding: 15px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    display: inline-block;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #70757a;
+    display: inline-block;
+  }
+  
+  
