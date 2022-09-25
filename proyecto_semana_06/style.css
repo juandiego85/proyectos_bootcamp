@@ -1,0 +1,98 @@
+
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+body{
+    display: flex;
+    justify-content: center;/*alinea al centro en el eje horizontal*/
+    align-items: center;/*alinea al centro en el eje vertical*/
+    flex-flow: column nowrap;
+    background-color: #e8eff5;
+    font-family: "ABeeZee", sans-serif;
+    color: #7e818a;
+}
+
+.card-flex{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    width: 580px;
+    height: 225px;
+    border: 1px solid hsla(0, 0%, 76.9%, 0.48);
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 3px 3px #a8afb3;
+    margin: 10px;
+}
+
+
+/*SECTION IMAGE*/
+.section__image{
+    display: flex;
+    width: 300px;
+}
+.section__image img{
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+/*SECTION MESSAGE*/
+
+.card__info{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    width: 400px;
+}
+
+.card__title {
+    font-size: 16px;
+    line-height: 140%;
+    padding-bottom: 15px;
+  }
+  .card__description {
+    text-align: justify;
+    font-size: 10px;
+    line-height: 170%;
+    padding-bottom: 20px;
+  }
+
+.card__author {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+.card__image{
+    height: 30px;
+    width: 32px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.card__author .author__name {
+    font-size: 11px;
+    line-height: 140%;
+    width: 80%;
+    padding-left: 10px;
+  }
+
+  .card__author .author__name span {
+    font-size: 10px;
+  }
+
+  .card__author .icon__share {
+    height: 20px;
+    width: 20px;
+    background-color: #edf5fc;
+    border-radius: 50%;
+    border: 1px solid #dbe5f0;
+  }
+
+
