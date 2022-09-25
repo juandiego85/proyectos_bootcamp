@@ -123,9 +123,6 @@ footer {
   padding-left: 30px;
 }
 
-.search__button {
-}
-
 .row__languages {
   /*color: #4d5156;*/
   color: #bdc1c6;
@@ -171,7 +168,7 @@ input[type="submit"]:hover {
 .submenu__container {
   position: relative;
   display: inline-block;
-  padding-left: 80px;
+  padding-left: 15px;
 }
 
 .submenu {
